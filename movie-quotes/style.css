@@ -1,0 +1,16 @@
+body {
+	letter-spacing: .05em;
+	font-family: "Courier New", Courier, monospace;
+	padding-bottom: 10vh;
+	padding-top: 5vh;
+	padding-left: 5vh;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+.titlePart {
+	font-size: 40px;
+	
+}
