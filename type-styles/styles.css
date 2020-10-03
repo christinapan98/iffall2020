@@ -1,0 +1,27 @@
+body {
+	padding-left: 9vw;
+	padding-bottom: 12vh;
+}
+.fontTitle {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.fontTitleBlock {
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	line-height: 1.8;
+}
+
+.fontBlock {
+	font-size: 16px;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 8vh;
+	line-height: 2;
+}
+
+.innerFontBlock {
+	margin-left: 3vw;
+}
