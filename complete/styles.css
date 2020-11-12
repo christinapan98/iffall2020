@@ -1,0 +1,142 @@
+body {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.8;
+	padding-bottom: 12vh;
+	font-family: 'Hind Madurai', sans-serif;
+	padding-top: 10vh;
+
+}
+
+img {
+	width: 0%;
+	height: auto;
+}
+
+.recipe-intro-header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.recipe-intro-header p {
+	padding-bottom: 20px;
+	padding-right: 1.5vw;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+}
+
+.recipe-intro-header div{
+	display: flex;
+	margin-right: 1vw;
+}
+
+.recipe-intro-img img {
+	width: 31%;
+	height: 12vh;
+	object-fit: cover;
+	padding-right: 1vw;
+	opacity: 90%;
+}
+.recipe-intro h1 {
+	margin-bottom: 20px;
+	font-size: 430%;
+	max-width: 50%;
+	line-height: 1.4;
+}
+
+.recipe-intro-words {
+	display: flex;
+	align-items: flex-start;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
+}
+.recipe-intro-words p {
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: justify;
+	width: 40%;
+	margin-right: 2.5vw;
+	margin-top: 0px;
+	padding-bottom: 5vh;
+}
+
+#mb26 {
+	width: 65%;
+	height: 80vh;
+	padding-right: 3vw;
+	margin-top: 1vh;
+	object-fit: cover;
+	object-position: center bottom;
+	opacity: 85%;
+
+}
+
+.recipe-instructions {
+	padding-bottom: 6vh;
+	padding-top: 3vh;
+}
+.recipe-instructions h2 {
+	margin-bottom: 0px;
+}
+.recipe-instructions-list {
+	padding-top: 3.5vh;
+	padding-right: 20px;
+	margin-top: 10px;
+	width: 30%;
+	line-height: 1.7;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0vh;
+	height: 50vh;
+	display: block;
+	
+}
+.recipe-instructions-ind h2{
+	margin-top: 5px;
+	font-size: 130%;
+	
+}
+.recipe-instructions-ind{
+	width: 95%;
+}
+.recipe-instructions-list div {
+	background-color: burlywood;
+	border-radius: 25px;
+	padding: 1.5vh;
+	padding-right: 2vw;
+	font-size: 14px;
+	margin-bottom: 10px;	
+}
+.recipe-instructions-list ul {
+	list-style-type: none;
+	margin-left: -3vw;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.recipe-instructions-words h2 {
+	font-size: 250%;
+	margin-left: 28px;
+	margin-bottom: -10px;
+}
+.recipe-instructions-words li {
+	line-height: 1.8;
+	padding-bottom: 10px;
+}
+.recipe-source {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	float: right;
+}
+
+@media (min-width: 640px) {
+	.recipe-instructions {
+		display: flex;
+	}
+	.recipe-instructions-words {
+		width: 80%;
+		margin-left: 3vw;
+	}
+}
