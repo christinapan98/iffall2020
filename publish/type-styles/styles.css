@@ -1,0 +1,52 @@
+body {
+	padding-left: 10vw;
+	padding-bottom: 12vh;
+}
+.fontTitle {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.fontTitleBlock {
+	font-family: 'Merriweather', serif;
+	font-size: 18px;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	line-height: 1.8;
+}
+
+.beep {
+	margin-left: 3vw; 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	color: dimgray;
+}
+
+.fontBlock {
+	font-size: 16px;
+	font-family: 'Merriweather', serif;
+	margin-bottom: 8vh;
+	line-height: 2;
+}
+
+.innerFontBlock {
+	margin-left: 3vw;
+}
+
+.fontLabel {
+	color: darkgray;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1.5px;
+	font-size: 17px;
+	text-decoration: normal;
+	font-weight: normal;
+	text-transform: none;
+	font-style: normal;
+}
+
+.fontBlockTitle {
+	font-weight: bold;
+	font-size: 28px;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
