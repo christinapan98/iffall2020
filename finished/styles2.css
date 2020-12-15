@@ -1,0 +1,677 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Prata', serif;
+	width: 90vw;
+}
+
+p {
+	font-family: 'Spectral', serif;
+}
+
+h1 {
+	letter-spacing: 6px;
+}
+body div {
+	padding-left: 5vw;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: -10px;
+	justify-content: space-between;
+	padding-left: 6vw;
+	width: 100vw;
+	height: 12vh;
+	color: whitesmoke;
+	background-color: white;
+	transition: all .3s;
+	z-index: 9999;
+}
+.headerdiv {
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 10vw;
+}
+
+.headerdiv a {
+	margin-right: 5vw;
+}
+
+header a {
+	text-transform: uppercase;
+	font-family: 'Rokkitt', serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+	transition: opacity color .2s;
+}
+a:hover{
+	cursor: pointer;
+	opacity: .8;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 5vw;
+	padding-top: 5vw;
+	padding-bottom: 3vw;
+	font-size: 15px;
+	font-family: 'Rokkitt', serif;
+	margin-top: 55vh;
+}
+.brandsfooter{
+	margin-top: 265vh;
+}
+.active {
+	color: black;
+	background-color: white;
+}
+.active1 {
+	color: black;
+}
+header div {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 70vw;
+	padding-right: 5vw;
+}
+
+#headerlv {
+	font-family: 'Prata', serif;
+	font-size: 25px;
+}
+
+#homepage {
+	display: block;
+	height: 101vh;
+	margin-top: -12vh;
+	margin-left: -2vw;
+	width: 95vw;
+	background-image: url("fendi_121120_holiday-hp_desktop.jpg");
+	background-repeat: no-repeat;
+	background-size: 200%;
+}
+
+#homepagehist {
+	display: block;
+	height: 110vh;
+	margin-top: -12vh;
+	margin-left: -2vw;
+	width: 95vw;
+	background-image: url("hist.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+}
+
+#homepage p {
+	color: white;
+	font-size: 80px;
+	position: relative;
+	top: 52vh;
+	width: 70vw;
+	line-height: 1.3;
+	padding-top: none;
+	padding-left: 2vw;
+}
+/*---------------------------------------------------------------------------*/
+#about {
+	display: block;
+	height: 100vh;
+	display: flex;
+	position: relative;
+}
+
+.about-img {
+	padding-left: 10vw;
+	padding-right: 10vw;
+	color: red;
+	margin-top: -10vh;
+}
+
+.about-img .circle{
+	padding: 10px;
+	width: 30px;
+	height: 45vh;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin-left: -10vw;
+	margin-top: -25vh;
+	z-index: 1;
+}
+#about-lvpic {
+	height: 98vh;
+	width: 28vw;
+	position: absolute;
+	top: -16vh;
+	left: 5vw;
+	z-index: -1;
+}
+#about-imgpic {
+	height: 50vh;
+	opacity: .9;
+	position: relative;
+	top: 30vh;
+	left: 10vw;
+}
+
+#about div {
+	position: relative;
+	top: 30vh;
+	text-align: justify;
+	width: 30vw;
+	margin-right: 2vw;
+
+}
+#about h1 {
+	font-size: 90px;
+	text-align: right;
+	margin-bottom: 5vh;
+	
+}
+
+/*-----------------------brands--------------------------*/
+#brands{
+	display: block;
+	height: 100vh;
+	margin-top: 30vh;
+}
+
+#brands h1{
+	font-size: 90px;
+	text-align: center;
+	margin-left: 3vw;
+	margin-bottom: 5vh;
+
+}
+.brands-first {
+	width: 35vw;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-right: 3vw;
+	padding-bottom: 15vh;
+	font-family: 'Spectral', serif;
+}
+
+.brands-list {
+	padding-left: 0px;
+	margin-top: 15vh;
+	width: 90vw;
+	position: relative;
+	left: -13vw;
+	display: block;
+}
+
+.brands-list h2{
+	font-family: 'Prata', serif;
+	font-size: 40px;
+	text-align: left;
+	width: 100vw;
+	letter-spacing: 3px;
+}
+
+.brands-logo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 95vw;
+}
+/*
+
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 30px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+*/
+.logo {
+	width: 330px;
+	height: 210px;
+	margin: 0 20px 135px 0;
+}
+#aoyun {
+	width: 25vw;
+	height: 210px;
+	object-fit: cover;
+}
+#ardberg{
+	width: 20vw;
+	height: 210px;
+
+/*	object-fit: cover;*/
+}
+#dp{
+	width: 23vw;
+	height: 130px;
+/*	object-fit: cover;*/
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+#fendi{
+	width: 300px;
+	height: 120px;
+	object-fit: cover;
+}
+#fenty{
+	width: 300px;
+	height: 110px;
+	object-fit: cover;
+}
+#chau{
+	width: 300px;
+	height: 60px;
+}
+#acqua {
+	width: 330px;
+	height: 140px;
+	object-fit: cover;
+}
+#guer {
+	width: 300px;
+	height: 150px;
+	object-fit: cover;
+}
+#sephora{
+	width: 300px;
+	height: 60px;
+/*	object-fit: cover;*/
+	position: relative;
+	top: 10vh;
+}
+#lv{
+	width: 220px;
+	height: 180px;
+	position: relative;
+	left: 70px;
+/*	object-fit: cover;*/
+}
+#bul{
+	width: 280px;
+	height: 30px;
+	position: relative;
+	top: 12vh;
+/*	object-fit: cover;*/
+}
+#pucci{
+	width: 300px;
+	height: 180px;
+	position: relative;
+	top: -5vh;
+}
+#epicerie{
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 5vh;	
+}
+#fred{
+	position: relative;
+	left: -5vh;
+}
+#chau{
+	position: relative;
+	top: 15vh;
+}
+#belmond{
+	position: relative;
+	left: -3vh;
+}
+#echos{
+	height: 110px;
+	position: relative;
+	top: 5vh;
+	left: -6vh;
+	
+}
+#charles{
+	height: 90px;
+	width: 360px;
+	position: relative;
+	top: 5vh;
+	left: -10vh;
+}
+
+/*-------------------------------history----------------------------------------*/
+#history {
+	display: block;
+	margin-top: -10vh;
+	margin-left: -5vh;
+/*	height: 100vh;*/
+	text-align: justify;
+}
+
+#history div{
+	position: relative;
+	top: 30vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.hist-intro {
+	width: 35vw;
+}
+
+#history h1{
+	font-size: 90px;
+}
+
+.hist-circ1 {
+	height: 30px;
+}
+.hist-items {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#hist-line {
+	width: 3px;
+	height: 320vh;
+	border-right: 2px solid black;
+	position: absolute;
+	margin-top: -70vh;
+	left: -7vw;
+	padding-bottom: 30vh;
+/*	background-color: black;*/
+}
+
+.hist-first {
+	display: flex;
+	margin-top: -350vh;
+	position: relative;
+	left: -9vw;
+}
+
+.hist-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hist-content {
+	position: relative;
+	right: 6vh;
+	padding-bottom: 90vh;
+
+}
+.hist-first div {
+	text-align: right;
+	position: absolute;
+	left: -7vw;
+	margin-top: -33vh;
+	width: 28vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hist-first div p {
+	text-align: right;
+}
+.hist-first div h2 {
+	text-align: right;
+}
+#hist-lvpic {
+	height: 35vw;
+	width: 25vw;
+	object-fit: cover;
+	opacity: .8;
+	margin-left: 10vh;
+}
+.hist-second {
+	display: flex;
+}
+.hist-second div {
+	width: 25vw;
+	margin-top: -15vh;
+}
+.hist-second div p{
+	text-align: left;
+}
+.hist-second div h2 {
+	text-align: left;
+}
+#hist-model {
+
+	position: relative;
+	right: 6vw;
+	top: -15vh;
+	height: 70vh;
+	width: 15vw;
+}
+.hist-third {
+	display: flex;
+	margin-top: -20vh;
+}
+.hist-third div{
+	width: 28vw;
+	position: relative;
+	right: 12vw;
+	margin-top: 3vh;
+}
+
+.hist-third div h2 {
+	text-align: right;
+}
+.hist-third div p {
+	text-align: right;
+}
+
+#hist-institut {
+	width: 35vw;
+	height: 60vh;
+	opacity: .8;
+	object-fit: cover;
+	position: relative;
+	right: 9vw;
+	top: -5vh;
+}
+
+.hist-fourth {
+	margin-top: 15vh;
+	background-image: url("runwaymodels.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	width: 70vw;
+	position: relative;
+	right: 8vh;
+}
+.hist-fourth div {
+	width: 28vw;
+	position: relative;
+	padding: 5vh;
+	left: 30vh;
+	margin-top: -20vh;
+}
+.hist-fourth h2{
+	color: white;
+	text-align: left;
+}
+.hist-fourth p {
+	color: white;
+	text-align: left;
+}
+.hist-fifth {
+	display: flex;
+	position: relative;
+	right: 17vh;
+	padding-top: 15vh;
+	align-items: center;
+	
+}
+.hist-fifth div {
+	width: 28vw;
+	margin-top: -80vh;
+	position: relative;
+	right: 10vh;
+}
+.hist-fifth div h2 {
+	text-align: right;
+}
+.hist-fifth div p {
+	text-align: right;
+}
+
+#hist-alain {
+	width: 40vh;
+	height: 45vh;
+}
+.hist-final {
+	width: 35vw;
+	margin-top: -15vh;
+	position: relative;
+	left: -5vh;
+	padding-bottom: 40vh;
+}
+
+
+/*---------------------------------charity--------------------------------------------*/
+
+#charity {
+	clear: both;
+	display: block;
+	height: 140vh;
+	text-align: center;
+	position: relative;
+	top: 20vh;
+}
+
+#charity .charity-first{
+	width: 35vw;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: -5vh;
+	margin-bottom: 18vh;
+}
+#charity h1{
+	font-size: 90px;
+}
+.charity-images {
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+/*	float: right;*/
+	padding-bottom: 15vh;
+	margin-top: 7vh;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: -5vh;
+}
+.charity-images div {
+	padding: 40px;
+	height: 30vh;
+	width: 16vw;
+	margin: 20px;
+	position: relative;
+	right: -3vw;
+}
+
+.charity-images .one{
+	background-image: url("monet.jpeg");
+	transition: all .2s;
+}
+.charity-images .one:hover{
+	opacity: .8;
+}
+.charity-images .one:hover p{
+	opacity: 1;
+}
+
+.charity-images .two{
+	background-image: url("fashiondesigner.jpg");
+	background-size: cover;
+}
+.charity-images .two:hover{
+	opacity: .8;
+}
+.charity-images .two:hover p{
+	opacity: 1;
+}
+
+.charity-images .thr{
+	background-image: url("show.jpg");
+}
+.charity-images .thr:hover{
+	opacity: .8;
+}
+.charity-images .thr:hover p{
+	opacity: 1;
+}
+
+.charity-images .fo{
+	background-image: url("violin.jpeg");
+}
+.charity-images .fo:hover{
+	opacity: .8;
+}
+.charity-images .fo:hover p{
+	opacity: 1;
+}
+
+.charity-images .fi{
+	background-image: url("fire.jpeg");
+}
+.charity-images .fi:hover{
+	opacity: .8;
+}
+.charity-images .fi:hover p{
+	opacity: 1;
+}
+
+.charity-images .s{
+	background-image: url("perfumee.jpeg");
+	background-size: cover;
+}
+.charity-images .s:hover{
+	opacity: .8;
+}
+.charity-images .s:hover p{
+	opacity: 1;
+}
+
+.charity-images p{
+	opacity: 0;
+	transition: all .2s;
+	text-align: left;
+	font-family: 'Rokkit', serif;
+	letter-spacing: 1px;
+	line-height: 1.3;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+#sources h1 {
+	font-size: 90px;
+	text-align: right;
+	margin-bottom: 5vh;
+	margin-top: 35vh;
+}
+#sources div {
+	font-family: 'Spectral', serif;
+	position: relative;
+	top: 4vh;
+	text-align: right;
+	float: right;
+	width: 30vw;
+	margin-right: 2vw;
+
+}
