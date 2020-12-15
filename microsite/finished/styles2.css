@@ -47,7 +47,20 @@ a:hover{
 	cursor: pointer;
 	opacity: .8;
 }
-
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 5vw;
+	padding-top: 5vw;
+	padding-bottom: 3vw;
+	font-size: 15px;
+	font-family: 'Rokkitt', serif;
+	margin-top: 55vh;
+}
+.brandsfooter{
+	margin-top: 300vh;
+}
 .active {
 	color: black;
 	background-color: white;
@@ -179,70 +192,149 @@ header div {
 	padding-right: 3vw;
 	font-family: 'Spectral', serif;
 }
-#brands .brands-list {
+
+.brands-list {
+	padding-left: 0px;
+	margin-top: 15vh;
+	width: 90vw;
+	position: relative;
+	left: -13vw;
+	display: block;
+}
+
+.brands-list h2{
+	font-family: 'Prata', serif;
+	font-size: 40px;
+	text-align: left;
+	width: 100vw;
+	letter-spacing: 3px;
+}
+
+.brands-logo {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-end;
-	padding-bottom: 12vh;
-	padding-top: 12vh;
-	font-family: 'Spectral', serif;
-	letter-spacing: 1px;
+	width: 95vw;
 }
+/*
 
-.brands-list div {
-	padding: 40px;
-	height: 30vh;
-	width: 16vw;
-	margin: 20px;
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 30px 0;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+*/
+.logo {
+	width: 330px;
+	height: 210px;
+	margin: 0 20px 135px 0;
+}
+#aoyun {
+	width: 25vw;
+	height: 210px;
+	object-fit: cover;
+}
+#ardberg{
+	width: 20vw;
+	height: 210px;
+
+/*	object-fit: cover;*/
+}
+#dp{
+	width: 23vw;
+	height: 130px;
+/*	object-fit: cover;*/
 	position: relative;
-	right: 6vh;
+	top: 50px;
+	left: 50px;
+}
+#fendi{
+	width: 300px;
+	height: 120px;
+	object-fit: cover;
+}
+#fenty{
+	width: 300px;
+	height: 110px;
+	object-fit: cover;
+}
+#chau{
+	width: 300px;
+	height: 60px;
+}
+#acqua {
+	width: 330px;
+	height: 140px;
+	object-fit: cover;
+}
+#guer {
+	width: 300px;
+	height: 150px;
+	object-fit: cover;
+}
+#sephora{
+	width: 300px;
+	height: 60px;
+/*	object-fit: cover;*/
+	position: relative;
+	top: 10vh;
+}
+#lv{
+	width: 220px;
+	height: 180px;
+	position: relative;
+	left: 70px;
+/*	object-fit: cover;*/
+}
+#bul{
+	width: 280px;
+	height: 30px;
+	position: relative;
+	top: 12vh;
+/*	object-fit: cover;*/
+}
+#pucci{
+	width: 300px;
+	height: 180px;
+	position: relative;
+	top: -5vh;
+}
+#epicerie{
+	width: 350px;
+	height: 70px;
+	position: relative;
+	top: 5vh;	
+}
+#fred{
+	position: relative;
+	left: -5vh;
+}
+#chau{
+	position: relative;
+	top: 15vh;
+}
+#belmond{
+	position: relative;
+	left: -3vh;
+}
+#echos{
+	height: 110px;
+	position: relative;
+	top: 5vh;
+	left: -6vh;
 	
 }
-.brands-list div div {
-	opacity: 0;
-	transition: all .2s;
-	margin-top: -9vh;
-}
-.brands-list div:hover div{
-	opacity: 1;
-}
-
-.brands-list #brands-wine {
-	background-image: url("wine.jpeg");
-	background-size: 200%;
-	background-repeat: no-repeat;
-	
-}
-
-.brands-list #brands-fashion {
-	background-image: url("1061068_w980h638c1cx757cy232.jpg");
-	background-size: 150%;
-	background-repeat: no-repeat;
-
-}
-
-.brands-list #brands-perfume {
-	background-image: url("perfume.jpg");
-	background-size: 130%;
-	background-repeat: no-repeat;
-
-}
-
-.brands-list #brands-watches {
-	background-image: url("watch.jpeg");
-	background-size:cover;
-	
-}
-
-.brands-list #brands-retail {
-	background-image: url("model.jpeg");
-	background-size: 180%;
-
-}
-
-.brands-list #brands-other {
-	background-image: url("perfume.jpg");
-
+#charles{
+	height: 90px;
+	width: 360px;
+	position: relative;
+	top: 5vh;
+	left: -10vh;
 }
 
 /*-------------------------------history----------------------------------------*/
@@ -444,7 +536,7 @@ header div {
 #charity {
 	clear: both;
 	display: block;
-	height: 100vh;
+	height: 140vh;
 	text-align: center;
 	position: relative;
 	top: 20vh;
@@ -478,7 +570,7 @@ header div {
 	width: 16vw;
 	margin: 20px;
 	position: relative;
-	right: -5vw;
+	right: -3vw;
 }
 
 .charity-images .one{

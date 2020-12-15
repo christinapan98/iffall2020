@@ -46,6 +46,15 @@ a:hover{
 	cursor: pointer;
 	opacity: .8;
 }
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding-top: 5vw;
+	font-size: 15px;
+	font-family: 'Rokkitt', serif;
+}
 
 .active {
 	color: black;
@@ -188,6 +197,7 @@ header div {
 	letter-spacing: 1px;
 }
 
+/*
 .brands-list div {
 	padding: 40px;
 	height: 30vh;
@@ -243,6 +253,7 @@ header div {
 	background-image: url("perfume.jpg");
 
 }
+*/
 
 /*-------------------------------history----------------------------------------*/
 #history {
@@ -464,13 +475,15 @@ header div {
 	display: flex;
 	flex-wrap: wrap;
 /*	float: right;*/
-	padding-bottom: 15vh;
+	padding-bottom: 30vh;
+	
 	margin-top: 7vh;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
 	left: -5vh;
 }
+
 .charity-images div {
 	padding: 40px;
 	height: 30vh;
@@ -490,7 +503,6 @@ header div {
 .charity-images .one:hover p{
 	opacity: 1;
 }
-
 .charity-images .two{
 	background-image: url("fashiondesigner.jpg");
 	background-size: cover;
@@ -501,7 +513,6 @@ header div {
 .charity-images .two:hover p{
 	opacity: 1;
 }
-
 .charity-images .thr{
 	background-image: url("show.jpg");
 }
@@ -511,7 +522,6 @@ header div {
 .charity-images .thr:hover p{
 	opacity: 1;
 }
-
 .charity-images .fo{
 	background-image: url("violin.jpeg");
 }
