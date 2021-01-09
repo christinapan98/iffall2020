@@ -57,6 +57,7 @@ a:hover{
 	opacity: .8;
 }
 footer {
+/*
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -66,10 +67,26 @@ footer {
 	font-size: 15px;
 	font-family: 'Rokkitt', serif;
 	margin-top: 55vh;
+*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	bottom: 0px;
+	font-size: 15px;
+	font-family: 'Rokkitt', serif;
+	margin-top: 150vh;
+	padding-bottom: 30px;
 }
+
+.hist-footer {
+	margin-top: 55vh;
+}
+
 .brandsfooter{
-	margin-top: 265vh;
+	margin-top: 600vh;
 }
+
 .active {
 	color: black;
 	background-color: white;
@@ -223,27 +240,16 @@ header div {
 .brands-logo {
 	display: flex;
 	flex-wrap: wrap;
-	width: 95vw;
+/*	width: 100vw;*/
+	margin-left: 17vw;
 }
-/*
 
-.button_container {
-	border: 1px solid #ddd;
-	margin: 0 10px 30px 0;
-	padding: 20px;
-	width: 300px;
-	height: 300px;
-	float: left;
-	overflow: hidden;
-	box-sizing: border-box;
-	text-align: center;
-}
-*/
 .logo {
-	width: 330px;
-	height: 210px;
+	width: 210px;
+	height: 120px;
 	margin: 0 20px 135px 0;
 }
+/*
 #aoyun {
 	width: 25vw;
 	height: 210px;
@@ -252,13 +258,10 @@ header div {
 #ardberg{
 	width: 20vw;
 	height: 210px;
-
-/*	object-fit: cover;*/
 }
 #dp{
 	width: 23vw;
 	height: 130px;
-/*	object-fit: cover;*/
 	position: relative;
 	top: 50px;
 	left: 50px;
@@ -290,7 +293,6 @@ header div {
 #sephora{
 	width: 300px;
 	height: 60px;
-/*	object-fit: cover;*/
 	position: relative;
 	top: 10vh;
 }
@@ -299,14 +301,12 @@ header div {
 	height: 180px;
 	position: relative;
 	left: 70px;
-/*	object-fit: cover;*/
 }
 #bul{
 	width: 280px;
 	height: 30px;
 	position: relative;
 	top: 12vh;
-/*	object-fit: cover;*/
 }
 #pucci{
 	width: 300px;
@@ -346,6 +346,7 @@ header div {
 	top: 5vh;
 	left: -10vh;
 }
+*/
 
 /*-------------------------------history----------------------------------------*/
 #history {
@@ -572,17 +573,29 @@ header div {
 	margin-top: 7vh;
 	margin-left: auto;
 	margin-right: auto;
+/*
 	position: relative;
 	left: -5vh;
+*/
 }
 .charity-images div {
+	display: block;
 	padding: 40px;
 	height: 30vh;
 	width: 16vw;
 	margin: 20px;
+/*
 	position: relative;
 	right: -3vw;
+*/
 }
+
+.charity-images div p {
+	height: 30vh;
+	font-size: 13px;
+	overflow: hidden;
+}
+
 
 .charity-images .one{
 	background-image: url("monet.jpeg");
@@ -673,5 +686,53 @@ header div {
 	float: right;
 	width: 30vw;
 	margin-right: 2vw;
+}
+
+@media screen and (min-width: 480px) {
+	
+}
+
+@media screen and (min-width: 768px) {
+	footer {
+		margin-top: 110vh;
+	}
+	.charity-images div p {
+		font-size: 15px;
+	}
+	.brands-logo {
+		margin-left: 14vh;
+	}
+	.brandsfooter{
+		margin-top: 300vh;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	footer {
+		margin-top: 110vh;
+	}
+	.brands-logo {
+		margin-left: 2vh;
+	}
+	.brandsfooter{
+		margin-top: 200vh;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	footer {
+		margin-top: 55vh;
+	}
+	.logo {
+		width: 300px;
+		height: 140px;
+	}
+	.brands-logo {
+		display: flex;
+		flex-wrap: wrap;
+		width: 90vw;
+		margin-left: 0vw;
+	}
 
 }
+
