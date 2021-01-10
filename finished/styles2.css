@@ -57,17 +57,6 @@ a:hover{
 	opacity: .8;
 }
 footer {
-/*
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding-right: 5vw;
-	padding-top: 5vw;
-	padding-bottom: 3vw;
-	font-size: 15px;
-	font-family: 'Rokkitt', serif;
-	margin-top: 55vh;
-*/
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -204,14 +193,14 @@ header div {
 }
 
 #brands h1{
-	font-size: 90px;
+	font-size: 60px;
 	text-align: center;
 	margin-left: 3vw;
 	margin-bottom: 5vh;
 
 }
 .brands-first {
-	width: 35vw;
+	width: 55vw;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -249,104 +238,6 @@ header div {
 	height: 120px;
 	margin: 0 20px 135px 0;
 }
-/*
-#aoyun {
-	width: 25vw;
-	height: 210px;
-	object-fit: cover;
-}
-#ardberg{
-	width: 20vw;
-	height: 210px;
-}
-#dp{
-	width: 23vw;
-	height: 130px;
-	position: relative;
-	top: 50px;
-	left: 50px;
-}
-#fendi{
-	width: 300px;
-	height: 120px;
-	object-fit: cover;
-}
-#fenty{
-	width: 300px;
-	height: 110px;
-	object-fit: cover;
-}
-#chau{
-	width: 300px;
-	height: 60px;
-}
-#acqua {
-	width: 330px;
-	height: 140px;
-	object-fit: cover;
-}
-#guer {
-	width: 300px;
-	height: 150px;
-	object-fit: cover;
-}
-#sephora{
-	width: 300px;
-	height: 60px;
-	position: relative;
-	top: 10vh;
-}
-#lv{
-	width: 220px;
-	height: 180px;
-	position: relative;
-	left: 70px;
-}
-#bul{
-	width: 280px;
-	height: 30px;
-	position: relative;
-	top: 12vh;
-}
-#pucci{
-	width: 300px;
-	height: 180px;
-	position: relative;
-	top: -5vh;
-}
-#epicerie{
-	width: 350px;
-	height: 70px;
-	position: relative;
-	top: 5vh;	
-}
-#fred{
-	position: relative;
-	left: -5vh;
-}
-#chau{
-	position: relative;
-	top: 15vh;
-}
-#belmond{
-	position: relative;
-	left: -3vh;
-}
-#echos{
-	height: 110px;
-	position: relative;
-	top: 5vh;
-	left: -6vh;
-	
-}
-#charles{
-	height: 90px;
-	width: 360px;
-	position: relative;
-	top: 5vh;
-	left: -10vh;
-}
-*/
 
 /*-------------------------------history----------------------------------------*/
 #history {
@@ -365,13 +256,14 @@ header div {
 	text-align: center;
 }
 
+#history h1 {
+	font-size: 60px;
+	text-align: center;
+}
 .hist-intro {
-	width: 35vw;
+	width: 55vw;
 }
 
-#history h1{
-	font-size: 90px;
-}
 
 .hist-circ1 {
 	height: 30px;
@@ -382,20 +274,20 @@ header div {
 	align-items: center;
 }
 
+/*-------------------HISTORY FULLSCREEN CSS----------------------*/
 #hist-line {
 	width: 3px;
-	height: 320vh;
+	height: 210vh;
 	border-right: 2px solid black;
 	position: absolute;
 	margin-top: -70vh;
 	left: -7vw;
 	padding-bottom: 30vh;
-/*	background-color: black;*/
 }
 
 .hist-first {
 	display: flex;
-	margin-top: -350vh;
+	margin-top: -235vh;
 	position: relative;
 	left: -9vw;
 }
@@ -408,10 +300,9 @@ header div {
 
 .hist-content {
 	position: relative;
-	right: 6vh;
 	padding-bottom: 90vh;
-
 }
+
 .hist-first div {
 	text-align: right;
 	position: absolute;
@@ -428,37 +319,40 @@ header div {
 	text-align: right;
 }
 #hist-lvpic {
-	height: 35vw;
-	width: 25vw;
+	height: 45vw;
+	width: 26vw;
 	object-fit: cover;
 	opacity: .8;
 	margin-left: 10vh;
 }
+
+/*modified part----------------------*/
 .hist-second {
 	display: flex;
 }
 .hist-second div {
-	width: 25vw;
-	margin-top: -15vh;
+	position: relative;
+	left: 6vh;
 }
-.hist-second div p{
+.hist-second div p {
+	width: 35vw;
 	text-align: left;
 }
 .hist-second div h2 {
 	text-align: left;
 }
 #hist-model {
-
+	height: 45vh;
 	position: relative;
-	right: 6vw;
-	top: -15vh;
-	height: 70vh;
-	width: 15vw;
+	top: 16vh;
+	right: 5vh;
 }
 .hist-third {
 	display: flex;
-	margin-top: -20vh;
+	align-items: center;
+	margin-top: 10vh;
 }
+
 .hist-third div{
 	width: 28vw;
 	position: relative;
@@ -472,55 +366,26 @@ header div {
 .hist-third div p {
 	text-align: right;
 }
-
 #hist-institut {
 	width: 35vw;
-	height: 60vh;
+	height: 40vh;
 	opacity: .8;
 	object-fit: cover;
 	position: relative;
-	right: 9vw;
-	top: -5vh;
+	top: 30vh;
+}
+.hist-fourth {
+	display: none;
 }
 
-.hist-fourth {
-	margin-top: 15vh;
-	background-image: url("runwaymodels.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 90vh;
-	width: 70vw;
-	position: relative;
-	right: 8vh;
-}
-.hist-fourth div {
-	width: 28vw;
-	position: relative;
-	padding: 5vh;
-	left: 30vh;
-	margin-top: -20vh;
-}
-.hist-fourth h2{
-	color: white;
-	text-align: left;
-}
-.hist-fourth p {
-	color: white;
-	text-align: left;
-}
 .hist-fifth {
 	display: flex;
-	position: relative;
-	right: 17vh;
-	padding-top: 15vh;
 	align-items: center;
 	
 }
 .hist-fifth div {
-	width: 28vw;
-	margin-top: -80vh;
 	position: relative;
-	right: 10vh;
+	left: -7vh;
 }
 .hist-fifth div h2 {
 	text-align: right;
@@ -528,18 +393,19 @@ header div {
 .hist-fifth div p {
 	text-align: right;
 }
-
 #hist-alain {
-	width: 40vh;
-	height: 45vh;
+	width: 35vh;
+	height: 36vh;
+	margin-top: 50vh;
 }
 .hist-final {
-	width: 35vw;
+	width: 55vw;
 	margin-top: -15vh;
 	position: relative;
-	left: -5vh;
 	padding-bottom: 40vh;
 }
+
+
 
 
 /*---------------------------------charity--------------------------------------------*/
@@ -554,29 +420,27 @@ header div {
 }
 
 #charity .charity-first{
-	width: 35vw;
+	width: 55vw;
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 15px;
 	position: relative;
-	left: -5vh;
-	margin-bottom: 18vh;
+	left: .2vh;
 }
+
 #charity h1{
-	font-size: 90px;
+	font-size: 60px;
+	text-align: center;
 }
+
 .charity-images {
 	clear: both;
 	display: flex;
 	flex-wrap: wrap;
-/*	float: right;*/
 	padding-bottom: 15vh;
 	margin-top: 7vh;
 	margin-left: auto;
 	margin-right: auto;
-/*
-	position: relative;
-	left: -5vh;
-*/
 }
 .charity-images div {
 	display: block;
@@ -584,19 +448,12 @@ header div {
 	height: 30vh;
 	width: 16vw;
 	margin: 20px;
-/*
-	position: relative;
-	right: -3vw;
-*/
 }
-
 .charity-images div p {
 	height: 30vh;
 	font-size: 13px;
 	overflow: hidden;
 }
-
-
 .charity-images .one{
 	background-image: url("monet.jpeg");
 	transition: all .2s;
@@ -607,7 +464,6 @@ header div {
 .charity-images .one:hover p{
 	opacity: 1;
 }
-
 .charity-images .two{
 	background-image: url("fashiondesigner.jpg");
 	background-size: cover;
@@ -618,7 +474,6 @@ header div {
 .charity-images .two:hover p{
 	opacity: 1;
 }
-
 .charity-images .thr{
 	background-image: url("show.jpg");
 }
@@ -628,7 +483,6 @@ header div {
 .charity-images .thr:hover p{
 	opacity: 1;
 }
-
 .charity-images .fo{
 	background-image: url("violin.jpeg");
 }
@@ -638,7 +492,6 @@ header div {
 .charity-images .fo:hover p{
 	opacity: 1;
 }
-
 .charity-images .fi{
 	background-image: url("fire.jpeg");
 }
@@ -648,7 +501,6 @@ header div {
 .charity-images .fi:hover p{
 	opacity: 1;
 }
-
 .charity-images .s{
 	background-image: url("perfumee.jpeg");
 	background-size: cover;
@@ -659,7 +511,6 @@ header div {
 .charity-images .s:hover p{
 	opacity: 1;
 }
-
 .charity-images p{
 	opacity: 0;
 	transition: all .2s;
@@ -670,7 +521,6 @@ header div {
 }
 
 /*--------------------------------------------------------------------*/
-
 
 #sources h1 {
 	font-size: 90px;
@@ -688,10 +538,6 @@ header div {
 	margin-right: 2vw;
 }
 
-@media screen and (min-width: 480px) {
-	
-}
-
 @media screen and (min-width: 768px) {
 	footer {
 		margin-top: 110vh;
@@ -705,6 +551,185 @@ header div {
 	.brandsfooter{
 		margin-top: 300vh;
 	}
+	#brands h1{
+		font-size: 70px;
+	}
+	.brands-first {
+		width: 45vw;
+		font-size: 18px;
+	}
+	/*-------history----------------*/
+	#hist-line {
+		width: 3px;
+		height: 330vh;
+		border-right: 2px solid black;
+		position: absolute;
+		margin-top: -70vh;
+		left: -7vw;
+		padding-bottom: 30vh;
+	}
+
+	.hist-first {
+		display: flex;
+		margin-top: -355vh;
+		position: relative;
+		left: -9vw;
+	}
+
+	.hist-wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.hist-content {
+		position: relative;
+		padding-bottom: 90vh;
+	}
+
+	.hist-first div {
+		text-align: right;
+		position: absolute;
+		left: -7vw;
+		margin-top: -33vh;
+		width: 28vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hist-first div p {
+		text-align: right;
+	}
+	.hist-first div h2 {
+		text-align: right;
+	}
+	#hist-lvpic {
+		height: 45vw;
+		width: 26vw;
+		object-fit: cover;
+		opacity: .8;
+		margin-left: 10vh;
+	}
+
+	.hist-second {
+		display: flex;
+	}
+	.hist-second div {
+		width: 25vw;
+		margin-top: -15vh;
+	}
+	.hist-second div p{
+		text-align: left;
+		width: 25vw;
+	}
+	.hist-second div h2 {
+		text-align: left;
+	}
+	#hist-model {
+		position: relative;
+		right: 6vw;
+		top: -15vh;
+		height: 70vh;
+		width: 15vw;
+	}
+	.hist-third {
+		display: flex;
+		margin-top: -20vh;
+	}
+	.hist-third div{
+		width: 28vw;
+		position: relative;
+		right: 12vw;
+		margin-top: 3vh;
+	}
+	.hist-third div h2 {
+		text-align: right;
+	}
+	.hist-third div p {
+		text-align: right;
+	}
+	#hist-institut {
+		width: 35vw;
+		height: 60vh;
+		opacity: .8;
+		object-fit: cover;
+		position: relative;
+		right: 9vw;
+		top: -5vh;
+	}
+
+	.hist-fourth {
+		display: block;
+		margin-top: 15vh;
+		background-image: url("runwaymodels.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 90vh;
+		width: 70vw;
+		position: relative;
+		right: 8vh;
+	}
+	.hist-fourth div {
+		width: 28vw;
+		position: relative;
+		padding: 5vh;
+		left: 30vh;
+		margin-top: -20vh;
+	}
+	.hist-fourth h2{
+		color: white;
+		text-align: left;
+	}
+	.hist-fourth p {
+		color: white;
+		text-align: left;
+	}
+	.hist-fifth {
+		display: flex;
+		position: relative;
+		left: -18vh;
+		align-items: center;
+
+	}
+	.hist-fifth div {
+		width: 28vw;
+		margin-top: -80vh;
+		position: relative;
+		right: 10vh;
+	}
+	.hist-fifth div h2 {
+		text-align: right;
+	}
+	.hist-fifth div p {
+		text-align: right;
+	}
+
+	#hist-alain {
+		width: 40vh;
+		height: 45vh;
+		margin-top: 10vh;
+	}
+	.hist-final {
+		width: 35vw;
+		margin-top: -15vh;
+		position: relative;
+		left: -5vh;
+		padding-bottom: 40vh;
+	}
+	/*-------------------------*/
+
+	#charity .charity-first{
+		width: 41vw;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		font-size: 17px;
+		left: -5vh;
+		margin-bottom: 18vh;
+	}
+	#charity h1{
+		font-size: 80px;
+	}
+	
 }
 
 @media screen and (min-width: 1024px) {
@@ -716,6 +741,21 @@ header div {
 	}
 	.brandsfooter{
 		margin-top: 200vh;
+	}
+	#brands h1{
+		font-size: 85px;
+	}
+	.brands-first {
+		width: 35vw;
+		font-size: 19px;
+	}
+	#history h1 {
+		font-size: 90px;
+		text-align: center;
+	}
+	.hist-intro {
+		width: 35vw;
+		font-size: 17px;
 	}
 }
 
@@ -733,6 +773,16 @@ header div {
 		width: 90vw;
 		margin-left: 0vw;
 	}
-
+	#charity .charity-first{
+		width: 35vw;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		left: -5vh;
+		margin-bottom: 18vh;
+	}
+	#charity h1{
+		font-size: 90px;
+	}
 }
 
